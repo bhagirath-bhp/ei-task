@@ -1,0 +1,6 @@
+// src/server/utils.js
+const logError = (error) => {
+    console.error('Error:', error);
+};
+
+module.exports = { logError };
